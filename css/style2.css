@@ -3,6 +3,10 @@ body{
     margin: 0;
 }
 
+p{
+    line-height: 23px;
+}
+
 .headline{
     
     text-align: center;
@@ -15,23 +19,32 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     display: inline-block;
+    text-align: center;
     position: relative;
-    left: 180px;
+    left: 150px;
 
 }
 
+a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #d92027;
+}
+
+a:hover{
+    color: #e8e4e1;
+}
+
 .bottom-cloud{
+    margin: 18px auto;
     position: relative;
-    left: 510px;
+    right: 210px;
 }
 
 .mountain{
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  position: relative;
-  left: 80px;
+    margin: 10px auto;
+    text-align: center;
 }
 
 .middle-container{
@@ -40,25 +53,26 @@ body{
     font-family: 'Maven Pro', sans-serif;
     font-size: 140%;
     color: #709fb0;
+    text-align: center;
 
 }
 
 .bottom-container{
     background-color: #ea907a;
     text-align: center;
-    margin: 20px auto;
+    margin: 20px auto 0 auto;
     color: #07031a;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none brown;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .propic{
     max-width: 15%;
     max-height: 15%;
     margin: 0 auto;
-    align-content: center;
-    position: relative;
-    right: 10px;
+    padding-top: 50px;
 }
 
 .greet{
@@ -77,8 +91,12 @@ body{
     margin: 10px auto 0 auto;
 }
 
-.hr{
-    border: 10px solid #01a9b4;
+hr{
+    border: dotted;
+    border-width: 10px;
+    border-bottom: 0;
+    margin: 15px auto;
+    max-width: 20px;
 }
 
 .greet2{
@@ -96,8 +114,9 @@ body{
     max-height: 8%;
     margin: 0 auto;
     float: left;
+    padding-right: 10px;
     position: relative;
-    left: 400px;
+    right: 10px;
 }
 
 .skil2{
@@ -105,21 +124,22 @@ body{
     max-height: 8%;
     margin: 0 auto;
     float: right;
+    padding-left: 10px;
+    text-align: right;
     position: relative;
-    right: 790px;
+    right: 760px;
 }
 
 .skill-row{
     padding: 10px auto;
     margin: 10px auto;
     text-align: left;
-    position: relative;
-    left: 410px;
 }
 
 .bigt{
     color: #190e4e;
     margin: 0 auto;
+    text-align: left;
 }
 
 .skill-row2{
@@ -127,13 +147,64 @@ body{
     margin: 10px auto;
     text-align: left;
     position: relative;
-    left: 410px;
+    left: 400px;
 }
 
 .btn{
     padding: 10px;
-    background-color: #D92027;
+    background-color: #f3c623;
     color: #190e4e;
     text-decoration: none;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    border-width: 3px;
     font-family: 'Josefin Sans', sans-serif;
+    margin-top: 40px;
+}
+
+.btn:hover{
+    padding: 10px;
+    background-color: #79d70f;
+    color: #d32626;
+    text-decoration: none;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    border-width: 3px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 40px;
+}
+
+.hi{
+    padding-top: 20px;
+}
+
+.profile{
+    padding-bottom: 30px;
+}
+
+.skills{
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+.skill1{
+    position: relative;
+    left: 400px;
+}
+
+.greet3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 200%;
+    color: #4f8a8b;
+    width: auto;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    padding-top: 50px;
+}
+
+.contact-me{
+    padding-bottom: 50px;
 }
