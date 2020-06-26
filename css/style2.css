@@ -146,19 +146,16 @@ hr{
     margin: 0 auto;
     float: left;
     padding-right: 10px;
-    position: relative;
-    right: 10px;
+    text-align: center;
 }
 
 .skil2{
     max-width: 8%;
     max-height: 8%;
     margin: 0 auto;
-    float: right;
-    padding-left: 10px;
-    text-align: right;
-    position: relative;
-    right: 760px;
+    float: left;
+    padding-right: 10px;
+    text-align: center;
 }
 
 .skill-row{
@@ -177,8 +174,7 @@ hr{
     padding: 10px auto;
     margin: 10px auto;
     text-align: left;
-    position: relative;
-    left: 400px;
+    display: inline-block;
 }
 
 .btn{
@@ -215,21 +211,23 @@ hr{
 
 .skills{
     padding-top: 50px;
-    margin: 0 auto;
+    margin: 10px auto 0 auto;
     text-align: center;
     padding-bottom: 50px;
 }
 
 
 .skill1{
-    position: relative;
-    left: 400px;
+    margin: 10px auto 0 auto;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
 }
 
 .greet3{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 200%;
-    color: #4f8a8b;
+    color:  #07031a;
     width: auto;
     text-align: center;
     margin: 0 auto 20px auto;
@@ -238,4 +236,12 @@ hr{
 
 .contact-me{
     padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #4f8a8b;
+}
+
+.contact1{
+    font-family: 'Rokkitt', sans-serif;
+    font-size: 120%;
 }
