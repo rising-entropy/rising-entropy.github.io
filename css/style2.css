@@ -22,7 +22,22 @@ p{
     text-align: center;
     position: relative;
     left: 150px;
+    animation-name: topcloud;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+}
 
+@keyframes topcloud{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 80px;
+    }
+    100%{
+        left: -80px;
+    }
 }
 
 a{
@@ -39,6 +54,22 @@ a:hover{
     margin: 18px auto;
     position: relative;
     right: 210px;
+    animation-name: bottomcloud;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bottomcloud{
+    0%{
+        right:0;
+    }
+    50%{
+        right: 80px;
+    }
+    100%{
+        right: -80px;
+    }
 }
 
 .mountain{
