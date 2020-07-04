@@ -1,0 +1,341 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.image-brand{
+    margin-right: 3%;
+}
+
+.brand-name{
+    display: inline-block;
+    font-family: 'Leckerli One', cursive;
+    font-size: 130%;
+    padding-top: 2px;
+    padding-bottom: 0;
+}
+.nav-item{
+    font-size: 120%;
+}
+nav{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.intro{
+    background-color: #ffb64f;
+    text-align: center;
+}
+.name{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 5rem;
+    text-align: center;
+    padding-bottom: 7px;
+}
+.intro-pic{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.whoami::before{
+    display: inline-block;
+    content: "A Web-Developer";
+    animation-duration: 15s;
+    animation-name: what;
+    animation-iteration-count: infinite;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding-top: 3%;
+    padding-bottom: 7%;
+}
+@keyframes what{
+    0% {content: "A |";}
+    0.76%{content: "A W|";}
+    1.52%{content: "A We|";}
+    2.28%{content: "A Web|";}
+    3.04%{content: "A Web-|";}
+    3.80%{content: "A Web-D|";}
+    4.56%{content: "A Web-De|";}
+    5.32%{content: "A Web-Dev|";}
+    6.08%{content: "A Web-Deve|";}
+    6.84%{content: "A Web-Devel|";}
+    7.60%{content: "A Web-Develop|";}
+    8.36%{content: "A Web-Develope|";}
+    9.12%{content: "A Web-Developer|";}
+    9.88%{content: "A Web-Developer.|";}
+    23.45%{content: "A Web-Developer|";}
+    24.21%{content: "A Web-Develope|";}
+    24.97%{content: "A Web-Develop|";}
+    25.73%{content: "A Web-Develo|";}
+    26.49%{content: "A Web-Devel|";}
+    27.25%{content: "A Web-Deve|";}
+    28.01%{content: "A Web-Dev|";}
+    28.77%{content: "A Web-De|";}
+    29.53%{content: "A Web-D|";}
+    30.29%{content: "A Web-|";}
+    31.05%{content: "A Web|";}
+    31.81%{content: "A We|";}
+    32.57%{content: "A W|";}
+    33.33%{content: "A |";}
+    33.76%{content: "A Co|";}
+    34.19%{content: "A Com|";}
+    34.62%{content: "A Comp|";}
+    35.05%{content: "A Compe|";}
+    35.48%{content: "A Compet|";}
+    35.91%{content: "A Competi|";}
+    36.34%{content: "A Competit|";}
+    36.77%{content: "A Competiti|";}
+    37.20%{content: "A Competitiv|";}
+    37.63%{content: "A Competitive|";}
+    38.06%{content: "A Competitive |";}
+    38.49%{content: "A Competitive P|";}
+    38.92%{content: "A Competitive Pr|";}
+    39.35%{content: "A Competitive Pro|";}
+    39.78%{content: "A Competitive Prog|";}
+    40.21%{content: "A Competitive Progr|";}
+    40.64%{content: "A Competitive Progra|";}
+    41.07%{content: "A Competitive Program|";}
+    41.50%{content: "A Competitive Programm|";}
+    41.93%{content: "A Competitive Programme|";}
+    42.36%{content: "A Competitive Programmer|";}
+    42.79%{content: "A Competitive Programmer.|";}
+    57.21%{content: "A Competitive Programmer|";}
+    57.64%{content: "A Competitive Programme|";}
+    58.07%{content: "A Competitive Programm|";}
+    58.50%{content: "A Competitive Program|";}
+    58.93%{content: "A Competitive Progra|";}
+    59.36%{content: "A Competitive Progr|";}
+    59.79%{content: "A Competitive Prog|";}
+    60.22%{content: "A Competitive Pro|";}
+    60.65%{content: "A Competitive Pr|";}
+    61.08%{content: "A Competitive P|";}
+    61.51%{content: "A Competitive |";}
+    61.94%{content: "A Competitive|";}
+    62.37%{content: "A Competitiv|";}
+    62.80%{content: "A Competiti|";}
+    63.23%{content: "A Competit|";}
+    63.66%{content: "A Competi|";}
+    64.09%{content: "A Compet|";}
+    64.52%{content: "A Compe|";}
+    64.95%{content: "A Comp|";}
+    65.38%{content: "A Com|";}
+    65.81%{content: "A Co|";}
+    66.26%{content: "A C|";}
+    66.67%{content: "A |";}
+    67.92%{content: "A B|";}
+    69.17%{content: "A Bl|";}
+    70.42%{content: "A Blo|";}
+    71.67%{content: "A Blog|";}
+    72.92%{content: "A Blogg|";}
+    74.17%{content: "A Blogge|";}
+    75.42%{content: "A Blogger|";}
+    90.00%{content: "A Blogger.|";}
+    91.25%{content: "A Blogger|";}
+    92.50%{content: "A Blogge|";}
+    93.75%{content: "A Blogg|";}
+    95.00%{content: "A Blog|";}
+    96.25%{content: "A Blo|";}
+    97.50%{content: "A Bl|";}
+    98.75%{content: "A B|";}
+    100.0%{content: "A |";}
+}
+.tree-intro{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  padding-bottom: 12%;
+}
+.quote{
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    padding-top: 10%;
+    padding-bottom: 16%;
+}
+.quote1{
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+    padding: 7% 20%;
+    font-weight: 550;
+    line-height: 4.8rem;
+}
+.quote2{
+    font-family: 'Arvo', serif;
+    font-size: 2rem;
+}
+.about-me{
+    background-color: cornsilk;
+    font-family: 'Special Elite', cursive;
+    padding-top: 10%;
+    padding-bottom: 16%;
+}
+.head-about{
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 7%;
+}
+.about-img{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+.para-about{
+    margin-left: 3px;
+    font-size: 120%;
+    padding-right: 3px;
+
+}
+.strike{
+    text-decoration: line-through;
+}
+.clich{
+    font-style: italic;
+}
+.curi{
+    font-size: 140%;
+    font-style: italic;
+}
+.about-img-2{
+    border-radius: 20px;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.blogs{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 16%;
+    background-color: #87dfd6;
+}
+.blog-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    padding-bottom: 6%;
+}
+
+.blog-quote1{
+    font-family: 'Charm', cursive;
+    font-size: 155%;
+    font-style: italic;
+}
+.blog-quote2{
+    font-family: 'Merriweather', serif;
+    text-align: right;
+    padding-right: 18%;
+    padding-bottom: 10%;
+}
+.blog-name{
+    padding: 5%;
+}
+.blog-img{
+    width: 25rem;
+    border-radius: 10%;
+    padding: 0;
+    border: solid 7px;
+    border-color: black;
+}
+.blog-ka-naam{
+    color: #F05500;
+    padding-top: 2%;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2rem;
+}
+.href-blog:hover{
+    text-decoration: none;
+    color: #F02900;
+}
+.href-blog{
+    text-align: center;
+}
+.Projects{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background: #34F04B;
+    text-align: center;
+}
+.project-title{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Arvo', serif;
+}
+.project-quote{
+    text-align: center;
+    padding: 0 5px;
+}
+.project-quote1{
+    padding-top: 6%;
+    font-family: 'Charm', cursive;
+    font-size: 155%;
+    font-style: italic;
+}
+.project-quote2{
+    font-family: 'Merriweather', serif;
+    text-align: right;
+    padding-right: 18%;
+    padding-bottom: 10%;
+}
+.projects-feat{
+    text-align: center;
+    padding-bottom: 10%;
+}
+.proj-img{
+    width: 25rem;
+    border-radius: 10%;
+    padding: 0;
+    border: solid 7px;
+    border-color: black;
+}
+.proj-name{
+    padding-top: 3%;
+    color: #A31526;
+}
+.proj-link{
+    text-decoration: none;
+}
+.proj-link:hover{
+    text-decoration: none;
+    color: #5a3d55;
+}
+.proj-name:hover{
+    padding-top: 3%;
+    color: #5a3d55;
+}
+.Contact{
+    background-color: #FFEB60;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 7%;
+}
+.contact-head{
+    font-family: 'Galada', cursive;
+    font-size: 4rem;
+    padding-bottom: 7%;
+}
+.gh{
+    color: gray;
+}
+.quo{
+    color: red;
+}
+.hr{
+    color: green;
+}
+.fcc{
+    color: black;
+}
+footer{
+    padding-top: 2%;
+    padding-bottom: 3%;
+    background: #FFF4B8;
+    text-align: center;
+}
