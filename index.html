@@ -164,6 +164,20 @@
     </div>
     <footer>Copyright of DevangK. All Rights Reserved.</footer>
 
+    
+    
+        <script src="anime.min.js"></script>
+    <script>
+        anime({
+  targets: '.path',
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: 'easeInOutSine',
+  duration: 15000,
+  delay: function(el, i) { return i * 250 },
+  direction: 'alternate',
+  loop: true
+});
+    </script>
 </body>
 
 </html>
