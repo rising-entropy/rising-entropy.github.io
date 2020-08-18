@@ -33,7 +33,6 @@ nav{
     font-family: 'Grand Hotel', cursive;
     font-size: 5rem;
     text-align: center;
-    padding-bottom: 7px;
 }
 .intro-pic{
     display: block;
@@ -41,7 +40,14 @@ nav{
   margin-right: auto;
   width: 50%;
   padding-top: 15%;
-  padding-bottom: 7%;
+  padding-bottom: 1%;
+}
+
+
+#demo-svg path{
+    stroke-dasharray: 200;
+  stroke-dashoffset: 0;
+  animation: dash 30s linear forwards;
 }
 
 .whoami::before{
@@ -54,7 +60,6 @@ nav{
     font-size: 2rem;
     text-align: center;
     font-family: 'Lato', sans-serif;
-    padding-top: 3%;
     padding-bottom: 7%;
 }
 @keyframes what{
