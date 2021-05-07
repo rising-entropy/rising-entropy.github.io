@@ -4817,13 +4817,18 @@ a img {
 }
 
 #particles-js {
-    background: #1488CC;
+    background: #542e71;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    background: -webkit-linear-gradient(to bottom, #fdca40, #fb3640);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to bottom, #fdca40, #fb3640);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    display: flex;
+    /*
+    background: #1488CC;
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to right, #2B32B2, #1488CC);
+    */
+    border: flex;
     vertical-align: bottom;
     width: 100%;
     min-height: 100vh;
