@@ -2,191 +2,323 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Devang K - RisingEntropy</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="css/favicondev.ico">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
-    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Lato&family=Leckerli+One&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Sacramento&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Charm:wght@700&family=Galada&family=Merriweather&family=Ubuntu:wght@700&family=Varela+Round&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/dac8600026.js" crossorigin="anonymous"></script>
+    <!-- Metadata of the Webpage -->
+    <!-- Character-set Metadata -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Description Metadata-->
+    <meta name="description" content="Portfolio Website" />
+    <!-- Author Metadata -->
+    <meta name="author" content="Devang Ajay Kamble" />
+    <!-- Keyword Metadata -->
+    <meta name="keywords" content="Devang Kamble Devang Ajay Kamble, Devang Walchand, Devang Kamble WCE, Devang, Devang Kamble AHS" />
+    <!-- Webpage Logo -->
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <!-- Webpage Title -->
+    <title>Devang Ajay Kamble</title>
 
+    <!-- Import CSS: Main Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark">
-        <a href="" class="navbar-brand">
-            <p class="brand-name">DevangK</p>
-        </a>
-        <button class="navbar-toggler btn btn-sm ml-right-auto" type="button" data-toggle="collapse"
-            data-target="#naviga" aria-controls="naviga" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="naviga">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#bio">Bio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#blog">Blogs</a></li>
-                <li class="nav-item"><a class="nav-link" href="#project">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
+    <div id="particles-js">
+        <div class="header">
+            <h1>
+                <span class="site-title" style="font-size: 6rem;">DEVANG AJAY KAMBLE</span>
+                <!--<div class="site-description">
+                    <p id="typed"></p>
+                </div>-->
+                <span class="site-description" style="font-size: 2rem; margin-top: 2%;">Developer • Innovator • Campaigner</span
+          >
+        </h1>
+        <div class="header-icons">
+          <a
+            aria-label="My LinkedIn Profile"
+            target="_blank"
+            href="https://www.linkedin.com/in/devang-kamble/"
+          >
+            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a
+            aria-label="My Github Profile"
+            target="_blank"
+            href="https://github.com/rising-entropy"
+          >
+            <i class="icon fa fa-github" aria-hidden="true"></i>
+          </a>
+          <a
+            aria-label="My Twitter Profile"
+            href="https://twitter.com/devang_kamble"
+            target="_blank"
+            ><i class="icon fa fa-twitter"></i
+          ></a>
+          <a
+            aria-label="Send Email"
+            href="mailto:devangkamble20@gmail.com"
+            target="_blank"
+            ><i class="icon fa fa-envelope"></i
+          ></a>
         </div>
-    </nav>
-    <div class="intro">
-        <br>
-        <img src="images/profile.png" alt="profile pic" class="intro-pic">
-        <div class="name">
-            <svg id="demo-svg" width="390" height="50">
-                <path fill-rule="evenodd"  fill="none" stroke="#2e2e2e" class="path" stroke-width="2"
-         d="M303.146,29.771 L303.146,21.124 L322.389,21.124 L322.389,38.612 C322.389,41.083 321.500,43.207 319.724,44.983 C317.946,46.761 315.801,47.649 313.287,47.649 L284.617,47.649 C282.147,47.649 280.023,46.761 278.246,44.983 C276.468,43.207 275.580,41.083 275.580,38.612 L275.580,9.877 C275.580,7.406 276.468,5.283 278.246,3.506 C280.023,1.729 282.147,0.840 284.617,0.840 L313.287,0.840 C315.801,0.840 317.946,1.729 319.724,3.506 C321.500,5.283 322.389,7.406 322.389,9.877 L322.389,13.517 L313.743,13.517 L313.743,11.762 C313.743,10.549 313.655,9.867 313.483,9.714 C313.309,9.563 312.637,9.487 311.467,9.487 L286.437,9.487 C285.224,9.487 284.541,9.563 284.390,9.714 C284.237,9.867 284.162,10.549 284.162,11.762 L284.162,36.727 C284.162,37.941 284.237,38.623 284.390,38.775 C284.541,38.927 285.224,39.002 286.437,39.002 L311.467,39.002 C312.637,39.002 313.309,38.927 313.483,38.775 C313.655,38.623 313.743,37.941 313.743,36.727 L313.743,29.771 L303.146,29.771 ZM230.073,13.387 L230.073,47.649 L221.491,47.649 L221.491,0.840 L230.918,0.840 L259.653,35.036 L259.653,0.840 L268.300,0.840 L268.300,47.649 L258.873,47.649 L230.073,13.387 ZM205.433,31.916 L175.853,31.916 L175.853,47.649 L167.271,47.649 L167.271,9.877 C167.271,7.406 168.159,5.283 169.936,3.506 C171.713,1.729 173.837,0.840 176.308,0.840 L204.978,0.840 C207.491,0.840 209.637,1.729 211.414,3.506 C213.191,5.283 214.080,7.406 214.080,9.877 L214.080,47.649 L205.433,47.649 L205.433,31.916 ZM205.433,11.762 C205.433,10.549 205.346,9.867 205.173,9.714 C204.999,9.563 204.328,9.487 203.158,9.487 L178.128,9.487 C176.914,9.487 176.231,9.563 176.080,9.714 C175.928,9.867 175.853,10.549 175.853,11.762 L175.853,23.334 L205.433,23.334 L205.433,11.762 ZM130.084,47.649 L102.974,0.840 L112.986,0.840 L133.919,37.247 L154.918,0.840 L164.865,0.840 L137.755,47.649 L130.084,47.649 ZM54.670,0.840 L97.773,0.840 L97.773,9.487 L63.317,9.487 L63.317,19.889 L91.012,19.889 L91.012,28.600 L63.317,28.600 L63.317,39.002 L97.773,39.002 L97.773,47.649 L54.670,47.649 L54.670,0.840 ZM38.157,47.649 L0.450,47.649 L0.450,0.840 L38.157,0.840 C40.670,0.840 42.816,1.729 44.593,3.506 C46.370,5.283 47.259,7.406 47.259,9.877 L47.259,38.612 C47.259,41.083 46.370,43.207 44.593,44.983 C42.816,46.761 40.670,47.649 38.157,47.649 ZM38.612,11.762 C38.612,10.549 38.525,9.867 38.352,9.714 C38.178,9.563 37.507,9.487 36.337,9.487 L11.307,9.487 C10.093,9.487 9.410,9.563 9.259,9.714 C9.107,9.867 9.032,10.549 9.032,11.762 L9.032,36.727 C9.032,37.941 9.107,38.623 9.259,38.775 C9.410,38.927 10.093,39.002 11.307,39.002 L36.337,39.002 C37.507,39.002 38.178,38.927 38.352,38.775 C38.525,38.623 38.612,37.941 38.612,36.727 L38.612,11.762 Z"/>
-            </svg>
+        <div class="header-links">
+          <a class="link" href="#about" data-scroll>About Me</a>
+          <a class="link" href="#projects" data-scroll>Projects</a>
         </div>
-        <h3 class="whoami"></h3>
-        <img src="https://image.flaticon.com/icons/svg/190/190922.svg" alt="lotus" class="tree-intro">
-    </div>
-    <div class="quote">
-        <p class="quote1">
-            Sometimes it is the people no one can imagine anything of who do the things no one can imagine.
-        </p>
-        <p class="quote2">Sir Alan Turing.</p>
-    </div>
-    <div class="about-me">
-        <h3 class="head-about" id="bio">About Me.</h3>
-        <img src="images/about.jpg" alt="my image" class="about-img" width="40%">
-        <p class="para-about">I am Devang Kamble. I am based in Pune, India and currently pursuing my B.Tech in Computer
-            Science and Engineering from Walchand College of Engineering, Sangli.<br>
-            My teacher had described me in the annual report card as <span class="strike">Talkative</span> Curious.
-            I chose Computer Science because of it's emphasis on creative approach and scope to develop. Other than CS,
-            my passion lies in Start-Up, Finance, Football and Memes.<br><img src="images/about2.jpg" alt="my image 2"
-                class="about-img-2" width=38%>
-            I aspire to solve problems in the world and make it a more better place to live <span class="clich">(a bit
-                cliched, I know!)</span><br>
-            If you wanna know more about me, do check-out my Blogs and Projects!<br>
-            Let's meet over coffee sometime, <span class="clich">(only if Corona does ceases to spread.
-                #SocialDistancing)</span><br>
-            My mantra; <span class="curi">Stay Curious!</span>
-        </p>
-    </div>
-    <div class="blogs" id="blog">
-        <h2 class="blog-title">Blogs</h2>
-        <div class="blog-quote">
-            <p class="blog-quote1">"To survive, you must tell stories."</p>
-            <p class="blog-quote2">-Umberto Eco.</p>
-        </div>
-        <div class="row justify-content-sm-center">
-            <div class="col col-sm-12 blog-name">
-                <a href="mount.html" class="href-blog"><img src="images/top.jpg" alt="top-of-the-hill" class="blog-img">
-                    <h3 class="blog-ka-naam">The Mountain-Top Principle.</h3>
-                </a>
-            </div>
-            <div class="col col-sm-12 blog-name">
-                <a href="speech.html" class="href-blog"><img src="images/public.jpg" alt="public-speaking" class="blog-img">
-                    <h3 class="blog-ka-naam">Public-Speaking Endeavors.</h3>
-                </a>
-            </div>
-            <div class="col col-sm-12 blog-name">
-                <a href="boycott.html" class="href-blog">
-                    <img src="images/cheen.png" alt="boycott-china" class="blog-img">
-                    <h3 class="blog-ka-naam">An ideal way to Boycott China</h3>
-                </a>
-            </div>
-        </div>
-        <a class="btn btn-dark btn-lg all-blog" href="blogs.html" role="button">Check Out All Blogs.</a>
+      </div>
+      <a class="down" href="#about" data-scroll
+        ><i class="icon fa fa-chevron-down" aria-hidden="true"></i
+      ></a>
     </div>
 
-    <div class="Projects" id="project">
-        <h2 class="project-title">Projects</h2>
-        <div class="project-quote">
-            <p class="project-quote1">“Start small. Start now. Start everything. And don’t bother to finish any of it.”
-            </p>
-            <p class="project-quote2">- Barbara Sher</p>
-        </div>
+    <!-- About Section -->
+                <section id="about">
+                    <!-- User Introduction-->
+                    <div class="user-details">
+                        <h1>My Story</h1>
+                        <img src="./assets/img/Professional-Picture-Me.png" alt="Professional Me" width="22%" />
+                        <p>
+                          I am a Computer Science and Engineering sophomore at Walchand College of Engineering, Sangli, pursuing undergraduate degree.
+                          I am primarily Full-Stack and Python Developer with minor experience in DevOps.
+                          I am currently exploring ReactJS, Data Science and DSA.<br><br>
+                          Besides this, I am an active part of several communities of my college and love to organise and take part in events.
+                          My hobbies include Reading, playing Video Games and watching & playing Football.<br><br>
+                          I aim to build software that is creative, unique and solves distinctive problems.
+                        </p>
+                    </div>
 
-        <div class="projects-feat row justify-content-sm-center">
-            <div class="col col-sm-12"><a href="https://github.com/rising-entropy/DeSipher" class="proj-link">
-                    <img src="images/desipher.png" alt="desipher" class="proj-img">
-                    <h3 class="proj-name">RSA Encryptor in Python.</h3>
-                </a></div>
-        </div>
-        <div class="projects-feat row justify-content-sm-center">
-            <div class="col col-sm-12"><a href="https://github.com/rising-entropy/attendance-manager.c" class="proj-link">
-                    <img src="images/proxymite.png" alt="proxymite" class="proj-img">
-                    <h3 class="proj-name">Attendance Manager in C.</h3>
-                </a></div>
-        </div>
-            <a class="btn btn-dark btn-lg all-blog" href="projects.html" role="button">Check Out All Projects.</a>
-    </div>
+                    <!-- User Specifics -->
+                    <div class="user">
+                        <!-- Technology Stack #1: Languages -->
+                        <div class="tech">
+                            <h2>Languages</h2>
+                            <i class="devicon-python-plain colored"></i>
+                            <i class="devicon-java-plain-wordmark colored"></i>
+                            <i class="devicon-cplusplus-plain colored"></i>
+                            <i class="devicon-javascript-plain colored"></i>
+                            <p>
+                                My favorite languages for systems programming, web automation, and data analysis.
+                            </p>
+                        </div>
 
-    <div class="Contact" id="contact">
-        <h3 class="contact-head">Let's Connect!</h3>
-        <div class="connectors">
-            <div class="row distr">
-                <div class="col col-sm-3">
-                    <a href="https://www.linkedin.com/in/devang-kamble/"><i class="fab fa-linkedin fa-3x lin"></i></a>
-                </div>
-                <div class="col col-sm-3">
-                    <a href="https://github.com/rising-entropy"><i class="fab fa-github fa-3x gh"></i></a>
-                </div>
-                <div class="col col-sm-3">
-                    <a href="https://www.quora.com/profile/Devang-Kamble"><i class="fab fa-quora fa-3x quo"></i></a>
-                </div>
-                <div class="col col-sm-3">
-                    <a href="https://www.instagram.com/devangkamble/"><i class="fab fa-instagram fa-3x ig"></i></a>
-                </div>
-            </div>
-            <br><br>
-            <div class="row distr">
-                <div class="col col-sm-3">
-                    <a href="https://www.hackerrank.com/risingentropy20"><i class="fab fa-hackerrank fa-3x hr"></i></a>
-                </div>
-                <div class="col col-sm-3">
-                    <a href="https://codeforces.com/profile/rising-entropy"><img src="images/CF.png" alt="CF logo" width= 40px class="cf"></a>
-                </div>
-                <div class="col col-sm-3">
-                    <a href="https://www.codechef.com/users/rising_entropy"><img src="https://image.flaticon.com/icons/svg/481/481486.svg" alt="CC logo" width= 40px class="cc"></a>
-                </div>
-                <div class="col col-sm-3">
-                    <a href="https://www.freecodecamp.org/rising_entropy"><i class="fab fa-free-code-camp fa-3x fcc"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer>Copyright of DevangK. All Rights Reserved.</footer>
+                        <!-- Technology Stack #2: Front-End -->
+                        <div class="tech">
+                            <h2>Front-End</h2>
+                            <i class="devicon-react-original colored"></i>
+                            <i class="devicon-bootstrap-plain colored"></i>
+                            <i class="devicon-html5-plain-wordmark colored"></i>
+                            <i class="devicon-css3-plain-wordmark colored"></i>
+                            <p>
+                                My preferred technologies for front-end web development and component design.
+                            </p>
+                        </div>
 
-    
-    
-        <script src="anime.min.js"></script>
-    <script>
-        anime({
-  targets: '.path',
-  strokeDashoffset: [anime.setDashoffset, 0],
-  easing: 'easeInOutSine',
-  duration: 15000,
-  delay: function(el, i) { return i * 250 },
-  direction: 'alternate',
-  loop: true
-});
-    </script>
+                        <!-- Technology Stack #3: Back-End -->
+                        <div class="tech">
+                            <h2>Back-End</h2>
+                            <i class="devicon-nodejs-plain colored"></i>
+                            <i class="devicon-express-original colored"></i>
+                            <i class="devicon-mongodb-plain-wordmark colored"></i>
+                            <i class="devicon-mysql-plain-wordmark colored"></i>
+                            <p>
+                                My preferred technologies for back-end web programming and database architecture.
+                            </p>
+                        </div>
+
+                        <!-- Technology Stack #4: Tools -->
+                        <div class="tech">
+                            <h2>Tools</h2>
+                            <i class="devicon-git-plain colored"></i>
+                            <i class="devicon-visualstudio-plain colored"></i>
+                            <i class="devicon-github-plain colored"></i>
+                            <i class="devicon-docker-plain colored"></i>
+                            <p>
+                                My favorite tools for version control, code editing, and container orchestration.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Projects Section -->
+                <section id="projects">
+                    <div class="user-details">
+                        <h1>Featured Projects</h1>
+                    </div>
+
+                    <!-- User Project #1: Personal Résumé Website -->
+                    <div class="user-projects">
+                        <div class="images-right">
+                            <img alt="Personal Résume Wébsite" src="./assets/img/Personal-Resume-Website.jpg" />
+                        </div>
+                        <div class="contents" style="text-align: center;">
+                            <h3>Personal Résumé Website</h3>
+                            <div>
+                                <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg" style="
+                filter: invert(96%) sepia(47%) saturate(4151%)
+                  hue-rotate(338deg) brightness(100%) contrast(95%);
+              " /> &nbsp;
+                                <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/bootstrap.svg" style="
+                filter: invert(24%) sepia(14%) saturate(2270%)
+                  hue-rotate(222deg) brightness(102%) contrast(90%);
+              " /> &nbsp;
+                                <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/html5.svg" style="
+                filter: invert(38%) sepia(74%) saturate(1192%)
+                  hue-rotate(341deg) brightness(90%) contrast(98%);
+              " /> &nbsp;
+                                <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/css3.svg" style="
+                filter: invert(33%) sepia(29%) saturate(3844%)
+                  hue-rotate(184deg) brightness(90%) contrast(84%);
+              " />
+                            </div>
+                            <p style="text-align: justify;">
+                                I developed and designed a website using Bootstrap and vanilla JavaScript to showcase my résumé in an interactive and visually-appealing format. I'm currently in the middle of migrating the project to a ReactJS framework with GatsbyJS.
+                            </p>
+                            <a class="project-link" target="_blank" href="https://www.adityavsingh.com/">Check it out!</a
+          >
+        </div>
+      </div>
+
+      <!-- User Project #2: Summer 2020 Project -->
+      <div class="user-projects">
+        <div class="images-left">
+          <img
+            alt="Summer 2020 Project"
+            src="./assets/img/Summer-2020-Project.jpg"
+          />
+        </div>
+        <div class="contents-right" style="text-align: center;">
+          <h3>Summer 2020 Project</h3>
+          <img
+            height="32"
+            width="32"
+            src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
+            style="
+              filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg)
+                brightness(109%) contrast(97%);
+            "
+          />
+          &nbsp;
+          <img
+            height="32"
+            width="32"
+            src="https://unpkg.com/simple-icons@3.4.0/icons/mongodb.svg"
+            style="
+              filter: invert(51%) sepia(57%) saturate(456%) hue-rotate(71deg)
+                brightness(95%) contrast(91%);
+            "
+          />
+          &nbsp;
+          <img
+            height="32"
+            width="32"
+            src="https://unpkg.com/simple-icons@3.4.0/icons/django.svg"
+            style="
+              filter: invert(9%) sepia(48%) saturate(2719%) hue-rotate(138deg)
+                brightness(95%) contrast(93%);
+            "
+          />
+          <p style="text-align: justify;">
+            I created an open-source web application for managing medium-scale
+            enterprises. Given entries, the app processes the data to create
+            numerical projections and presents graphs/charts, using large
+            data-intensive APIs to perform complex statistics and data analysis.
+          </p>
+          <a
+            class="project-link"
+            target="_blank"
+            href="https://github.com/AVS1508/Summer-2020-Project"
+            >Check it out!</a
+          >
+        </div>
+      </div>
+
+      <!-- User Project #3: COVID-19 Tracker App -->
+      <div class="user-projects">
+        <div class="images-right">
+          <img
+            alt="COVID-19 Tracker App"
+            src="./assets/img/COVID19-Tracker-App.jpg"
+          />
+        </div>
+        <div class="contents" style="text-align: center;">
+          <h3>COVID-19 Tracker App</h3>
+          <div>
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg"
+              style="
+                filter: invert(96%) sepia(47%) saturate(4151%)
+                  hue-rotate(338deg) brightness(100%) contrast(95%);
+              "
+            />
+          </div>
+          <p style="text-align: justify;">
+            I created a web application for tracking the spread of COVID-19.
+            Using Johns Hopkins University Center For Systems Science and
+            Engineering API, the website processes the COVID-19 data to create
+            statistical projections through graphs and charts.
+          </p>
+          <a
+            class="project-link"
+            target="_blank"
+            href="https://www.adityavsingh.com/covid19-tracker-app"
+          >
+            Check it out!
+          </a>
+                        </div>
+                    </div>
+
+                    <!-- Use Project #4: Valuto: Account Management System -->
+                    <div class="user-projects">
+                        <div class="images-left">
+                            <img alt="Valuto: Account Management System" src="./assets/img/Valuto-Account-Management.jpg" />
+                        </div>
+                        <div class="contents-right" style="text-align: center;">
+                            <h3>Valuto: Account Management System</h3>
+                            <div>
+                                <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/cplusplus.svg" style="
+                filter: invert(22%) sepia(77%) saturate(1486%)
+                  hue-rotate(183deg) brightness(101%) contrast(103%);
+              " />
+                            </div>
+                            <p style="text-align: justify;">
+                                I developed a CLI system for accounting management and financial statement maintenance. The purpose of the system is to maintain a record of the funds received, used, disseminated and donated by an organization. Details of transactions and maintenance
+                                of a budget and tallying of current balance/inventory in cash/kind is incorporated in this system.
+                            </p>
+                            <a class="project-link" target="_blank" href="https://github.com/AVS1508/Valuto-Account-Management-System">
+            Check it out!
+          </a>
+                        </div>
+                    </div>
+                </section>
+
+                <footer class="footer">
+                    <p>&copy; Aditya Vikram Singh, 2020</p>
+                </footer>
+
+                <!-- Import JS: Particles Theme -->
+                <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+                <!-- Import JS: Sweet Scroll -->
+                <script src="./assets/js/sweet-scroll.min.js"></script>
+                <!-- Import JS: Google Analytics -->
+                <script src="./assets/js/google-analytics.js"></script>
+                <!-- Import JS: Typed.js -->>
+                <script src="./assets/js/typed.js"></script>
+                <script>
+                    var typed = new Typed("#typed", {
+                        strings: ["> Programmer", "> Web Developer", "> Graphic Designer"],
+                        typeSpeed: 80,
+                        backSpeed: 80,
+                        backDelay: 1800,
+                        loop: true,
+                        showCursor: false,
+                        contentType: null,
+                    });
+                </script>
+                <!-- Import JS: Main Script -->
+                <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
-
-
-
-<!--<a class="btn btn-primary" href="#" role="button">Link</a>-->
