@@ -9436,3 +9436,10 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+#madeWithLove{
+  background-color: #414040;
+  text-align: center;
+  padding-top: 0.4%;
+  padding-bottom: 0.2%;
+}
